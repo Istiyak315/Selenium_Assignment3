@@ -60,6 +60,9 @@ public class DatePicker {
 	
 	@AfterTest
 	public void at() {
+
+		//close the browser
+		driver.quit();
 		
 		
 	}
